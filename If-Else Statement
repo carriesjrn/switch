@@ -1,0 +1,34 @@
+public class App {
+    public static void main(String[] args) throws Exception {
+
+        // Conditional Structure
+        boolean isSuspended = true;
+        boolean ihaveNoMoney = false;
+
+        if (isSuspended) {
+            System.out.println("Stay at home");
+        }
+        else if (ihaveNoMoney) {
+            System.out.println("My parents gave me money");
+        } else {
+            // Step 1
+            walk1();
+        }
+{
+            // Step 2
+            walk2();
+            
+        }
+
+    }
+
+    static void walk1() {
+        System.out.println("Walk to 7/11 along Patato St.");
+        System.out.println("Exit to 7/11 along Patato St.");
+    }
+
+    static void walk2() {
+        System.out.println("Walk from 7/11 to NU");
+        System.out.println("Exit 7/11 to NU");
+    }
+}
